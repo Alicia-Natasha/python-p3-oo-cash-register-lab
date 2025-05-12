@@ -12,8 +12,8 @@ class TestCashRegister:
     cash_register_with_discount = CashRegister(20)
 
     def reset_register_totals(self):
-      self.cash_register.total = 0
-      self.cash_register_with_discount.total = 0
+        self.cash_register.total = 0
+        self.cash_register_with_discount.total = 0
 
     def test_discount_attribute(self):
         '''takes one optional argument, a discount, on initialization.'''
